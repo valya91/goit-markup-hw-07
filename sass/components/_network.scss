@@ -1,0 +1,11 @@
+.network {
+  display: flex;
+
+  & .item {
+    width: 44px;
+    margin-right: 10px;
+  }
+  & .item:last-child {
+    margin-right: 0;
+  }
+}

@@ -1,0 +1,11 @@
+.page-footer {
+  background-color: $footer-grey-color;
+}
+.footer {
+  display: flex;
+  padding-top: 45px;
+  padding-bottom: 28px;
+  align-items: baseline;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}

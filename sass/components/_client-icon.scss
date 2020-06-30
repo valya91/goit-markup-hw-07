@@ -1,0 +1,30 @@
+.logo-icon {
+  fill: $social-color;
+  border: 1px solid $social-color;
+  border-radius: 4px;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover {
+    fill: $accent-color;
+    border-color: $accent-color;
+  }
+}
+
+.logo1 {
+  padding: 20px 63px;
+}
+.logo2 {
+  padding: 19px 65px;
+}
+.logo3 {
+  padding: 24px 64px 23px 65px;
+}
+.logo4 {
+  padding: 24px 45px;
+}
+.logo5 {
+  padding: 22px 55px 21px 56px;
+}
+.logo6 {
+  padding: 22px 41px;
+}

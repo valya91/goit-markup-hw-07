@@ -1,0 +1,14 @@
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  padding: 10px 32px;
+  color: $additional-text-color;
+  background-color: $accent-color;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-decoration: none;
+}

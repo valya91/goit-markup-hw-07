@@ -1,0 +1,15 @@
+.card-content {
+  padding: 20px 24px;
+  background: $additional-text-color;
+  border-right: 1px solid $card-white-color;
+  border-left: 1px solid $card-white-color;
+  border-bottom: 1px solid $card-white-color;
+  box-sizing: border-box;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  .card-link:hover &,
+  .card-link:focus & {
+    box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
+      0px 1px 1px rgba(0, 0, 0, 0.12);
+  }
+}
