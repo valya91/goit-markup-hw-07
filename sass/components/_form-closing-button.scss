@@ -1,0 +1,26 @@
+.closing-button {
+  position: absolute;
+  right: -9px;
+  top: -10px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 1px 3px rgba(0, 0, 0, 0.12);
+  background-color: $primary-white-color;
+  cursor: pointer;
+  outline: none;
+}
+.closing-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-origin: border-box;
+
+  .closing-button:focus &,
+  .closing-button:hover & {
+    fill: $accent-color;
+  }
+}

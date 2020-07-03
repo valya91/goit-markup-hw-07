@@ -1,0 +1,16 @@
+.form-label {
+  position: absolute;
+  top: 50%;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.01em;
+  transform: translateX(42px) translateY(-50%);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.form-field:focus-within > .form-label,
+.form-input:not(:placeholder-shown) + .form-label {
+  color: $accent-color;
+  transform: translateX(17px) translateY(-45px);
+}
